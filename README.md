@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="http://www.openymca.org">
-    <img alt="react-router" src="https://www.ymcamn.org/themes/custom/ymca/img/ymca-logo.svg" width="144">
-  </a>
+ <!-- Will replace with new Open Y logo soon. <a href="http://www.openymca.org">
+    <img alt="Open Y Logo" src="" width="144">
+  </a> -->
 </p>
 
 <h3 align="center">
-  Open YMCA
+  Open Y
 </h3>
 <p align="center">
   http://openymca.org
@@ -51,8 +51,21 @@ For development environment please read documentation [openy-project](https://gi
 
 Other development information you can find at [docs/Development](https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs/Development).
 
+## Open Y 2.0 beta
+
+Please read detailed installation instructions [here](https://github.com/ymcatwincities/openy-project).
+
+```
+composer create-project ymcatwincities/openy-project:8.2.x-dev MY_PROJECT --no-interaction --no-dev
+cd MY_PROJECT && composer update
+```
+
+This command will build project based on [**latest 8.2 beta**](https://github.com/ymcatwincities/openy/releases) release.
+
 # Documentation
 - [Documentation](https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs)
 - [Installation instructions](https://github.com/ymcatwincities/openy-project#installation)
 - [Content structure](https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs/Content%20structure)
 - [Technical documentation](https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs/Development)
+- [Terms of Use](https://github.com/ymcatwincities/openy/wiki/Open-Y-Terms-of-Use)
+- [Participation Agreement](https://github.com/ymcatwincities/openy/wiki/Open-Y-Participant-Agreement)
