@@ -19,3 +19,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media (min-width: 768px) {
+  body.install-page {
+    display: block;
+  }
+
+  .layout-container {
+    margin-top: 180px;
+  }
+}
+
+#openy-terms-of-use .form-submit {
+  margin: 0 auto;
+  display: block;
+}
